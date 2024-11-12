@@ -1,0 +1,1 @@
+/home/ravik/ros2_rolling/build/parallel_gripper_controller/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" time="0.053" timestamp="2024-11-08T13:58:08.457" name="AllTests">
+  <testsuite name="MecanumDriveControllerTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.053" timestamp="2024-11-08T13:58:08.457">
+    <testcase name="when_controller_is_configured_expect_all_parameters_set" file="/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller_preceeding.cpp" line="32" status="run" result="completed" time="0.029" timestamp="2024-11-08T13:58:08.457" classname="mecanum_drive_controller.MecanumDriveControllerTest" />
+    <testcase name="when_controller_configured_expect_properly_exported_interfaces" file="/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller_preceeding.cpp" line="71" status="run" result="completed" time="0.024" timestamp="2024-11-08T13:58:08.486" classname="mecanum_drive_controller.MecanumDriveControllerTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,1 @@
+/home/ravik/ros2_rolling/build/controller_interface/ament_cmake_environment_hooks/local_setup.zsh

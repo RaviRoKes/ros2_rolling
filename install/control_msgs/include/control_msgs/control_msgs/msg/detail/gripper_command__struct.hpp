@@ -1,0 +1,1 @@
+/home/ravik/ros2_rolling/build/control_msgs/rosidl_generator_cpp/control_msgs/msg/detail/gripper_command__struct.hpp

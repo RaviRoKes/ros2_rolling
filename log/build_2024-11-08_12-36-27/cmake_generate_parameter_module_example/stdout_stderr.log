@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found generate_parameter_library: 0.3.9 (/home/ravik/ros2_rolling/install/generate_parameter_library/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.9 (/home/ravik/ros2_rolling/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/rolling/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.3.3 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_COMPILE_COMMANDS
+
+[0m
+-- Build files have been written to: /home/ravik/ros2_rolling/build/cmake_generate_parameter_module_example
+[100%] [34m[1mRunning `/home/ravik/ros2_rolling/install/generate_parameter_library_py/bin/generate_parameter_library_python /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example/admittance_parameters.py /home/ravik/ros2_rolling/src/generate_parameter_library/example_cmake_python/cmake_generate_parameter_module_example/parameters.yaml cmake_generate_parameter_module_example.custom_validation`[0m
+[100%] Built target ament_cmake_python_symlink_cmake_generate_parameter_module_example
+running egg_info
+creating cmake_generate_parameter_module_example.egg-info
+writing cmake_generate_parameter_module_example.egg-info/PKG-INFO
+writing dependency_links to cmake_generate_parameter_module_example.egg-info/dependency_links.txt
+writing top-level names to cmake_generate_parameter_module_example.egg-info/top_level.txt
+writing manifest file 'cmake_generate_parameter_module_example.egg-info/SOURCES.txt'
+reading manifest file 'cmake_generate_parameter_module_example.egg-info/SOURCES.txt'
+writing manifest file 'cmake_generate_parameter_module_example.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_cmake_generate_parameter_module_example_egg
+Running /home/ravik/ros2_rolling/build/generate_parameter_library_py/generate_parameter_library_py/generate_python_module.py /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example/admittance_parameters.py /home/ravik/ros2_rolling/src/generate_parameter_library/example_cmake_python/cmake_generate_parameter_module_example/parameters.yaml cmake_generate_parameter_module_example.custom_validation
+[100%] Built target admittance_parameters
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/environment/pythonpath.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/environment/pythonpath.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example-0.3.9-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example-0.3.9-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example-0.3.9-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example-0.3.9-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example/__init__.py
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example/custom_validation.py
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example/minimal_publisher.py
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example/parameters.yaml
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/ament_index/resource_index/package_run_dependencies/cmake_generate_parameter_module_example
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/ament_index/resource_index/parent_prefix_path/cmake_generate_parameter_module_example
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/environment/ament_prefix_path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/environment/path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/environment/path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/local_setup.bash
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/local_setup.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/local_setup.zsh
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/local_setup.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/package.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/ament_index/resource_index/packages/cmake_generate_parameter_module_example
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/cmake/cmake_generate_parameter_module_exampleConfig.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/cmake/cmake_generate_parameter_module_exampleConfig-version.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/share/cmake_generate_parameter_module_example/package.xml
+Listing '/home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example'...
+Compiling '/home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example/__init__.py'...
+Compiling '/home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example/admittance_parameters.py'...
+Compiling '/home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example/custom_validation.py'...
+Compiling '/home/ravik/ros2_rolling/install/cmake_generate_parameter_module_example/lib/python3.12/site-packages/cmake_generate_parameter_module_example/minimal_publisher.py'...

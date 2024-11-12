@@ -1,0 +1,28 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing rqt_joint_trajectory_controller.egg-info/PKG-INFO
+writing dependency_links to rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+writing entry points to rqt_joint_trajectory_controller.egg-info/entry_points.txt
+writing requirements to rqt_joint_trajectory_controller.egg-info/requires.txt
+writing top-level names to rqt_joint_trajectory_controller.egg-info/top_level.txt
+reading manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt-joint-trajectory-controller.egg-link (link to .)
+Installing rqt_joint_trajectory_controller script to /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+
+Installed /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller
+running symlink_data

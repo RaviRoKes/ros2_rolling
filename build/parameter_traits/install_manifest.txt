@@ -1,0 +1,1 @@
+/home/ravik/ros2_rolling/install/parameter_traits/share/parameter_traits/cmake/export_parameter_traitsExport.cmake

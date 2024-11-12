@@ -1,0 +1,1 @@
+/home/ravik/ros2_rolling/build/kinematics_interface/ament_cmake_core/kinematics_interfaceConfig.cmake

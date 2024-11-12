@@ -1,0 +1,3 @@
+/home/ravik/ros2_rolling/install/pid_controller/lib/libpid_controller.so
+/home/ravik/ros2_rolling/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport.cmake
+/home/ravik/ros2_rolling/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport-noconfig.cmake

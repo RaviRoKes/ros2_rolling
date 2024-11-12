@@ -1,0 +1,1 @@
+/home/ravik/ros2_rolling/build/admittance_controller/ament_cmake_environment_hooks/local_setup.sh

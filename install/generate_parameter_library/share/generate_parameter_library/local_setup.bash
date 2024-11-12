@@ -1,0 +1,1 @@
+/home/ravik/ros2_rolling/build/generate_parameter_library/ament_cmake_environment_hooks/local_setup.bash

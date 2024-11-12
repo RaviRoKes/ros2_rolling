@@ -1,0 +1,90 @@
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvirtual void ResourceManagerTest_managing_controllers_reference_interfaces_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1287:27:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1287 |     [01;35m[Kclaimed_itf1.set_value(11.1)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/resource_manager.hpp:26[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:17[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1288:27:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1288 |     [01;35m[Kclaimed_itf3.set_value(33.3)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvoid ResourceManagerTestReadWriteError::[01;32m[Kcheck_read_or_write_failure[m[K(FunctionT, FunctionT, double)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1410:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1410 |     [01;35m[Kclaimed_itfs[0].set_value(fail_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1411:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1411 |     [01;35m[Kclaimed_itfs[1].set_value(fail_value - 10.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1446:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1446 |     [01;35m[Kclaimed_itfs[0].set_value(fail_value - 10.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1447:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1447 |     [01;35m[Kclaimed_itfs[1].set_value(fail_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1483:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1483 |     [01;35m[Kclaimed_itfs[0].set_value(fail_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1484:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1484 |     [01;35m[Kclaimed_itfs[1].set_value(fail_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvoid ResourceManagerTestReadWriteError::[01;32m[Kcheck_read_or_write_deactivate[m[K(FunctionT, FunctionT, double)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1529:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1529 |     [01;35m[Kclaimed_itfs[0].set_value(deactivate_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1530:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1530 |     [01;35m[Kclaimed_itfs[1].set_value(deactivate_value - 10.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1565:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1565 |     [01;35m[Kclaimed_itfs[0].set_value(deactivate_value - 10.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1566:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1566 |     [01;35m[Kclaimed_itfs[1].set_value(deactivate_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1601:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1601 |     [01;35m[Kclaimed_itfs[0].set_value(deactivate_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1602:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1602 |     [01;35m[Kclaimed_itfs[1].set_value(deactivate_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K

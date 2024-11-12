@@ -1,0 +1,86 @@
+[0.011s] Invoking command in '/home/ravik/ros2_rolling/build/kinematics_interface_kdl': AMENT_PREFIX_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets:/home/ravik/ros2_rolling/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets:/home/ravik/ros2_rolling/install/kinematics_interface:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling LD_LIBRARY_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets/lib:/home/ravik/ros2_rolling/install/kinematics_interface/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;$(parse_ros_workspace)\a\]\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_bracket)\[$(set_git_color)\]$(get_gitbranch)\[\e[0;32m\]>\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /home/ravik/ros2_rolling/src/kinematics_interface/kinematics_interface_kdl -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravik/ros2_rolling/install/kinematics_interface_kdl
+[0.069s] -- The CXX compiler identification is GNU 13.2.0
+[0.084s] -- Detecting CXX compiler ABI info
+[0.171s] -- Detecting CXX compiler ABI info - done
+[0.177s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.177s] -- Detecting CXX compile features
+[0.178s] -- Detecting CXX compile features - done
+[0.180s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.294s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.348s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.374s] -- Found kdl_parser: 2.12.1 (/opt/ros/rolling/share/kdl_parser/cmake)
+[0.395s] -- Found eigen3_cmake_module: 0.4.0 (/opt/ros/rolling/share/eigen3_cmake_module/cmake)
+[0.396s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.396s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.406s] -- Found kinematics_interface: 1.2.0 (/home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/cmake)
+[0.446s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.464s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.614s] -- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.617s] -- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.700s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.719s] -- Found FastRTPS: /opt/ros/rolling/include (Required is at least version "2.13") 
+[0.744s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.836s] -- Found pluginlib: 5.5.1 (/opt/ros/rolling/share/pluginlib/cmake)
+[0.848s] -- Found tf2_eigen_kdl: 0.38.2 (/opt/ros/rolling/share/tf2_eigen_kdl/cmake)
+[0.884s] -- Found ament_cmake_gmock: 2.7.0 (/opt/ros/rolling/share/ament_cmake_gmock/cmake)
+[0.885s] -- Found ros2_control_test_assets: 4.20.0 (/home/ravik/ros2_rolling/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[0.887s] -- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.928s] -- The C compiler identification is GNU 13.2.0
+[0.939s] -- Detecting C compiler ABI info
+[1.032s] -- Detecting C compiler ABI info - done
+[1.038s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.039s] -- Detecting C compile features
+[1.039s] -- Detecting C compile features - done
+[1.043s] -- Found ament_cmake_gtest: 2.7.0 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+[1.043s] -- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.126s] -- Configuring done (1.1s)
+[1.147s] -- Generating done (0.0s)
+[1.149s] -- Build files have been written to: /home/ravik/ros2_rolling/build/kinematics_interface_kdl
+[1.161s] Invoked command in '/home/ravik/ros2_rolling/build/kinematics_interface_kdl' returned '0': AMENT_PREFIX_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets:/home/ravik/ros2_rolling/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets:/home/ravik/ros2_rolling/install/kinematics_interface:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling LD_LIBRARY_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets/lib:/home/ravik/ros2_rolling/install/kinematics_interface/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;$(parse_ros_workspace)\a\]\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_bracket)\[$(set_git_color)\]$(get_gitbranch)\[\e[0;32m\]>\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake /home/ravik/ros2_rolling/src/kinematics_interface/kinematics_interface_kdl -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravik/ros2_rolling/install/kinematics_interface_kdl
+[1.161s] Invoking command in '/home/ravik/ros2_rolling/build/kinematics_interface_kdl': AMENT_PREFIX_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets:/home/ravik/ros2_rolling/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets:/home/ravik/ros2_rolling/install/kinematics_interface:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling LD_LIBRARY_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets/lib:/home/ravik/ros2_rolling/install/kinematics_interface/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;$(parse_ros_workspace)\a\]\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_bracket)\[$(set_git_color)\]$(get_gitbranch)\[\e[0;32m\]>\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /home/ravik/ros2_rolling/build/kinematics_interface_kdl -- -j32 -l32
+[1.212s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.212s] [ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/rolling/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.213s] [ 33%] [32mBuilding CXX object CMakeFiles/kinematics_interface_kdl.dir/src/kinematics_interface_kdl.cpp.o[0m
+[1.216s] [ 44%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.120s] [ 55%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.160s] [ 55%] Built target gmock_main
+[6.599s] [ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[6.667s] [ 66%] Built target gmock
+[9.747s] [ 77%] [32m[1mLinking CXX shared library libkinematics_interface_kdl.so[0m
+[10.104s] [ 77%] Built target kinematics_interface_kdl
+[10.169s] [ 88%] [32mBuilding CXX object CMakeFiles/test_kinematics_interface_kdl.dir/test/test_kinematics_interface_kdl.cpp.o[0m
+[17.501s] [100%] [32m[1mLinking CXX executable test_kinematics_interface_kdl[0m
+[17.817s] [100%] Built target test_kinematics_interface_kdl
+[17.830s] Invoked command in '/home/ravik/ros2_rolling/build/kinematics_interface_kdl' returned '0': AMENT_PREFIX_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets:/home/ravik/ros2_rolling/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets:/home/ravik/ros2_rolling/install/kinematics_interface:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling LD_LIBRARY_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets/lib:/home/ravik/ros2_rolling/install/kinematics_interface/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;$(parse_ros_workspace)\a\]\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_bracket)\[$(set_git_color)\]$(get_gitbranch)\[\e[0;32m\]>\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --build /home/ravik/ros2_rolling/build/kinematics_interface_kdl -- -j32 -l32
+[17.874s] Invoking command in '/home/ravik/ros2_rolling/build/kinematics_interface_kdl': AMENT_PREFIX_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets:/home/ravik/ros2_rolling/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets:/home/ravik/ros2_rolling/install/kinematics_interface:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling LD_LIBRARY_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets/lib:/home/ravik/ros2_rolling/install/kinematics_interface/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;$(parse_ros_workspace)\a\]\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_bracket)\[$(set_git_color)\]$(get_gitbranch)\[\e[0;32m\]>\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /home/ravik/ros2_rolling/build/kinematics_interface_kdl
+[17.883s] -- Install configuration: ""
+[17.883s] -- Execute custom install script
+[17.883s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl//kinematics_interface_kdl.xml
+[17.893s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/include/kinematics_interface_kdl/kinematics_interface_kdl/kinematics_interface_kdl.hpp
+[17.905s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/library_path.sh
+[17.915s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/library_path.dsv
+[17.924s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/ament_index/resource_index/package_run_dependencies/kinematics_interface_kdl
+[17.933s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/ament_index/resource_index/parent_prefix_path/kinematics_interface_kdl
+[17.944s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/ament_prefix_path.sh
+[17.953s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/ament_prefix_path.dsv
+[17.964s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/path.sh
+[17.973s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/environment/path.dsv
+[17.983s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.bash
+[17.994s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.sh
+[18.005s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.zsh
+[18.016s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/local_setup.dsv
+[18.026s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/package.dsv
+[18.035s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/ament_index/resource_index/packages/kinematics_interface_kdl
+[18.045s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/ament_index/resource_index/kinematics_interface__pluginlib__plugin/kinematics_interface_kdl
+[18.055s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/ament_cmake_export_targets-extras.cmake
+[18.066s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.074s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/kinematics_interface_kdlConfig.cmake
+[18.086s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/kinematics_interface_kdlConfig-version.cmake
+[18.094s] -- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/package.xml
+[18.103s] -- Installing: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/lib/libkinematics_interface_kdl.so
+[18.107s] -- Set non-toolchain portion of runtime path of "/home/ravik/ros2_rolling/install/kinematics_interface_kdl/lib/libkinematics_interface_kdl.so" to ""
+[18.107s] -- Installing: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/export_kinematics_interface_kdlExport.cmake
+[18.107s] -- Installing: /home/ravik/ros2_rolling/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake/export_kinematics_interface_kdlExport-noconfig.cmake
+[18.110s] Invoked command in '/home/ravik/ros2_rolling/build/kinematics_interface_kdl' returned '0': AMENT_PREFIX_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets:/home/ravik/ros2_rolling/install/kinematics_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets:/home/ravik/ros2_rolling/install/kinematics_interface:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling LD_LIBRARY_PATH=/home/ravik/ros2_rolling/install/ros2_control_test_assets/lib:/home/ravik/ros2_rolling/install/kinematics_interface/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;$(parse_ros_workspace)\a\]\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_bracket)\[$(set_git_color)\]$(get_gitbranch)\[\e[0;32m\]>\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] /usr/bin/cmake --install /home/ravik/ros2_rolling/build/kinematics_interface_kdl

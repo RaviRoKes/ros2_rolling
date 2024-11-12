@@ -1,0 +1,113 @@
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found pluginlib: 5.5.1 (/opt/ros/rolling/share/pluginlib/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found realtime_tools: 2.8.1 (/home/ravik/ros2_rolling/install/realtime_tools/share/realtime_tools/cmake)
+-- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found FastRTPS: /opt/ros/rolling/include (Required is at least version "2.13") 
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.3.3 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)
+-- Found trajectory_msgs: 5.4.1 (/opt/ros/rolling/share/trajectory_msgs/cmake)
+-- Found urdf: 2.12.0 (/opt/ros/rolling/share/urdf/cmake)
+-- Found ament_cmake_gtest: 2.7.0 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_gmock: 2.7.0 (/opt/ros/rolling/share/ament_cmake_gmock/cmake)
+-- Found generate_parameter_library: 0.3.9 (/home/ravik/ros2_rolling/install/generate_parameter_library/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.3.9 (/home/ravik/ros2_rolling/install/parameter_traits/share/parameter_traits/cmake)
+-- Found launch_testing_ament_cmake: 3.6.1 (/opt/ros/rolling/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.12.0 (/opt/ros/rolling/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- The C compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Threads: TRUE  
+-- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ravik/ros2_rolling/build/joint_limits
+[  5%] [32mBuilding CXX object CMakeFiles/joint_limiter_interface.dir/src/joint_limiter_interface.cpp.o[0m
+[ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 16%] [34m[1mGenerating joint_limits/version.h[0m
+[ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_saturation_limiter.cpp.o[0m
+[ 38%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 38%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/rolling/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 38%] Built target ament_generate_version_header__joint_limits
+[ 44%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 44%] Built target gtest_main
+[ 50%] [32m[1mLinking CXX shared library libjoint_limiter_interface.so[0m
+[ 50%] Built target joint_limiter_interface
+[ 55%] [32m[1mLinking CXX shared library libjoint_saturation_limiter.so[0m
+[ 55%] Built target joint_saturation_limiter
+[ 61%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 61%] Built target gtest
+[ 66%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/joint_limits_urdf_test.dir/test/joint_limits_urdf_test.cpp.o[0m
+[ 77%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 77%] Built target gmock
+[ 83%] [32mBuilding CXX object CMakeFiles/test_joint_saturation_limiter.dir/test/test_joint_saturation_limiter.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable joint_limits_urdf_test[0m
+[ 88%] Built target joint_limits_urdf_test
+[ 94%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[ 94%] Built target joint_limits_rosparam_test
+[100%] [32m[1mLinking CXX executable test_joint_saturation_limiter[0m
+[100%] Built target test_joint_saturation_limiter
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits//joint_limiters.xml
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/test/joint_saturation_limiter_param.yaml
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/include/joint_limits/joint_limits/joint_limiter_interface.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/include/joint_limits/joint_limits/joint_limits.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/include/joint_limits/joint_limits/joint_limits_rosparam.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/include/joint_limits/joint_limits/joint_limits_urdf.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/include/joint_limits/joint_limits/joint_saturation_limiter.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/include/joint_limits/joint_limits/visibility_control.h
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/environment/library_path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/environment/library_path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/environment/path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/environment/path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/local_setup.bash
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/local_setup.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/local_setup.zsh
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/local_setup.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/package.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/ament_index/resource_index/joint_limits__pluginlib__plugin/joint_limits
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/package.xml
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_limits/include/joint_limits/joint_limits/version.h
+-- Installing: /home/ravik/ros2_rolling/install/joint_limits/lib/libjoint_limiter_interface.so
+-- Set non-toolchain portion of runtime path of "/home/ravik/ros2_rolling/install/joint_limits/lib/libjoint_limiter_interface.so" to ""
+-- Installing: /home/ravik/ros2_rolling/install/joint_limits/lib/libjoint_saturation_limiter.so
+-- Set non-toolchain portion of runtime path of "/home/ravik/ros2_rolling/install/joint_limits/lib/libjoint_saturation_limiter.so" to ""
+-- Installing: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport.cmake
+-- Installing: /home/ravik/ros2_rolling/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport-noconfig.cmake

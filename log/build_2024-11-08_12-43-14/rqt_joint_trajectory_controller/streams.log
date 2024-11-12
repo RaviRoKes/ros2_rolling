@@ -1,0 +1,30 @@
+[0.532s] Invoking command in '/home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller': AMENT_PREFIX_PATH=/home/ravik/ros2_rolling/install/controller_manager_msgs:/home/ravik/ros2_rolling/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravik/ros2_rolling/install/controller_manager_msgs:/home/ravik/ros2_rolling/install/control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ravik/ros2_rolling/install/controller_manager_msgs/lib:/home/ravik/ros2_rolling/install/control_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;$(parse_ros_workspace)\a\]\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_bracket)\[$(set_git_color)\]$(get_gitbranch)\[\e[0;32m\]>\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] PYTHONPATH=/home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:/home/ravik/ros2_rolling/install/controller_manager_msgs/lib/python3.12/site-packages:/home/ravik/ros2_rolling/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/build --no-deps symlink_data
+[0.734s] running develop
+[0.734s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.734s] !!
+[0.734s] 
+[0.734s]         ********************************************************************************
+[0.734s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.734s]         Instead, use pypa/build, pypa/installer or other
+[0.734s]         standards-based tools.
+[0.734s] 
+[0.734s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.734s]         ********************************************************************************
+[0.734s] 
+[0.734s] !!
+[0.734s]   easy_install.initialize_options(self)
+[0.843s] running egg_info
+[0.854s] writing rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[0.854s] writing dependency_links to rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[0.854s] writing entry points to rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[0.854s] writing requirements to rqt_joint_trajectory_controller.egg-info/requires.txt
+[0.854s] writing top-level names to rqt_joint_trajectory_controller.egg-info/top_level.txt
+[0.875s] reading manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.876s] writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[0.887s] running build_ext
+[0.887s] Creating /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt-joint-trajectory-controller.egg-link (link to .)
+[0.888s] Installing rqt_joint_trajectory_controller script to /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[0.888s] 
+[0.888s] Installed /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller
+[0.888s] running symlink_data
+[0.908s] Invoked command in '/home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/ravik/ros2_rolling/install/controller_manager_msgs:/home/ravik/ros2_rolling/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravik/ros2_rolling/install/controller_manager_msgs:/home/ravik/ros2_rolling/install/control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ravik/ros2_rolling/install/controller_manager_msgs/lib:/home/ravik/ros2_rolling/install/control_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;$(parse_ros_workspace)\a\]\[\e[1;32m\]\u\[\[\e[0;37m\]@\[\[\e[0;33m\]\h\[\[\e[1;33m\]${text}\[\[\e[0;37m\]:\[$(set_ros_workspace_color)\]$(parse_ros_workspace)\[\[\e[0;32m\]$(parse_git_bracket)\[$(set_git_color)\]$(get_gitbranch)\[\e[0;32m\]>\[\e[1;35m\]\W\[\[\e[1;35m\]$\[\[\e[0m\]\[\e[m\] PYTHONPATH=/home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:/home/ravik/ros2_rolling/install/controller_manager_msgs/lib/python3.12/site-packages:/home/ravik/ros2_rolling/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/build --no-deps symlink_data

@@ -1,0 +1,25 @@
+-- run_test.py: invoking following command in '/home/ravik/ros2_rolling/build/mecanum_drive_controller':
+ - /home/ravik/ros2_rolling/build/mecanum_drive_controller/test_load_mecanum_drive_controller --ros-args --params-file /home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/mecanum_drive_controller_params.yaml -- --gtest_output=xml:/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_load_mecanum_drive_controller.gtest.xml
+
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLoadMecanumDriveController
+[ RUN      ] TestLoadMecanumDriveController.load_controller
+unknown file: Failure
+C++ exception with description "Failed to load library /opt/ros/jazzy/lib/libsdformat_urdf_plugin.so. Make sure that you are calling the PLUGINLIB_EXPORT_CLASS macro in the library code, and that names are consistent between this macro and your XML. Error string: Could not load library dlopen error: libsdformat14.so.14: cannot open shared object file: No such file or directory, at ./src/shared_library.c:99" thrown in the test body.
+
+[  FAILED  ] TestLoadMecanumDriveController.load_controller (18 ms)
+[----------] 1 test from TestLoadMecanumDriveController (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (18 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestLoadMecanumDriveController.load_controller
+
+ 1 FAILED TEST
+
+
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_load_mecanum_drive_controller.gtest.xml'
+-- run_test.py: verify result file '/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_load_mecanum_drive_controller.gtest.xml'

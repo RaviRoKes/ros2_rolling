@@ -1,0 +1,28 @@
+[100%] Built target kinematics_interface
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/include/kinematics_interface/kinematics_interface/kinematics_interface.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/include/kinematics_interface/kinematics_interface/visibility_control.h
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/environment/library_path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/environment/library_path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/ament_index/resource_index/package_run_dependencies/kinematics_interface
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/ament_index/resource_index/parent_prefix_path/kinematics_interface
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/environment/path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/environment/path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/local_setup.bash
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/local_setup.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/local_setup.zsh
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/local_setup.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/package.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/ament_index/resource_index/packages/kinematics_interface
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig-version.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/package.xml
+-- Installing: /home/ravik/ros2_rolling/install/kinematics_interface/lib/libkinematics_interface.so
+-- Set non-toolchain portion of runtime path of "/home/ravik/ros2_rolling/install/kinematics_interface/lib/libkinematics_interface.so" to ""
+-- Installing: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport.cmake
+-- Installing: /home/ravik/ros2_rolling/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport-noconfig.cmake

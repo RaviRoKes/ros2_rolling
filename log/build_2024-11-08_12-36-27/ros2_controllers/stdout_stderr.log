@@ -1,0 +1,29 @@
+-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_COMPILE_COMMANDS
+
+[0m
+-- Build files have been written to: /home/ravik/ros2_rolling/build/ros2_controllers
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ament_index/resource_index/package_run_dependencies/ros2_controllers
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ament_index/resource_index/parent_prefix_path/ros2_controllers
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ros2_controllers/environment/ament_prefix_path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ros2_controllers/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ros2_controllers/environment/path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ros2_controllers/environment/path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ros2_controllers/local_setup.bash
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ros2_controllers/local_setup.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ros2_controllers/local_setup.zsh
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ros2_controllers/local_setup.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ros2_controllers/package.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ament_index/resource_index/packages/ros2_controllers
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ros2_controllers/cmake/ros2_controllersConfig.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ros2_controllers/cmake/ros2_controllersConfig-version.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/ros2_controllers/share/ros2_controllers/package.xml

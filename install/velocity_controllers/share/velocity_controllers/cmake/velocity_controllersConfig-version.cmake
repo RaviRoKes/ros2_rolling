@@ -1,0 +1,1 @@
+/home/ravik/ros2_rolling/build/velocity_controllers/ament_cmake_core/velocity_controllersConfig-version.cmake

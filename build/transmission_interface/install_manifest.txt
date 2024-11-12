@@ -1,0 +1,3 @@
+/home/ravik/ros2_rolling/install/transmission_interface/lib/libtransmission_interface.so
+/home/ravik/ros2_rolling/install/transmission_interface/share/transmission_interface/cmake/export_transmission_interfaceExport.cmake
+/home/ravik/ros2_rolling/install/transmission_interface/share/transmission_interface/cmake/export_transmission_interfaceExport-noconfig.cmake

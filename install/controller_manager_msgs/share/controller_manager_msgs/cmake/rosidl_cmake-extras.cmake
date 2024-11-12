@@ -1,0 +1,1 @@
+/home/ravik/ros2_rolling/build/controller_manager_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

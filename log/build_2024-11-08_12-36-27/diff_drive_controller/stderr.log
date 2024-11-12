@@ -1,0 +1,96 @@
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type diff_drive_controller::DiffDriveController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:262:67:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  262 |     [01;35m[Kregistered_left_wheel_handles_[index].velocity.get().set_value(velocity_left)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp:29[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:25[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:263:68:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  263 |     [01;35m[Kregistered_right_wheel_handles_[index].velocity.get().set_value(velocity_right)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp: In instantiation of ‘[01m[Kdiff_drive_controller::DiffDriveController::halt()::<lambda(auto:38&)> [35m[K[with auto:38 = std::vector<diff_drive_controller::DiffDriveController::WheelHandle>][m[K[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:526:14:[m[K   required from here
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/src/diff_drive_controller.cpp:522:44:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  522 |       [01;35m[Kwheel_handle.velocity.get().set_value(0.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest.h:72[m[K,
+                 from [01m[K/opt/ros/rolling/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+                 from [01m[K/opt/ros/rolling/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+                 from [01m[K/opt/ros/rolling/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:15[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual void TestDiffDriveController_cleanup_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:516:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  516 |   EXPECT_EQ(0.0, [01;35m[Kleft_wheel_vel_cmd_.get_value()[m[K);
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp:26[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp:29[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:23[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:517:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  517 |   EXPECT_EQ(0.0, [01;35m[Kright_wheel_vel_cmd_.get_value()[m[K);
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual void TestDiffDriveController_correct_initialization_using_parameters_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:537:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  537 |   EXPECT_EQ(0.01, [01;35m[Kleft_wheel_vel_cmd_.get_value()[m[K);
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:538:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  538 |   EXPECT_EQ(0.02, [01;35m[Kright_wheel_vel_cmd_.get_value()[m[K);
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:553:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  553 |   EXPECT_EQ(1.0, [01;35m[Kleft_wheel_vel_cmd_.get_value()[m[K);
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:554:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  554 |   EXPECT_EQ(1.0, [01;35m[Kright_wheel_vel_cmd_.get_value()[m[K);
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:565:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  565 |   EXPECT_EQ(0.0, [01;35m[Kleft_wheel_vel_cmd_.get_value()[m[K) << "Wheels are halted on deactivate()";
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:566:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  566 |   EXPECT_EQ(0.0, [01;35m[Kright_wheel_vel_cmd_.get_value()[m[K) << "Wheels are halted on deactivate()";
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:571:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  571 |   EXPECT_EQ(0.0, [01;35m[Kleft_wheel_vel_cmd_.get_value()[m[K);
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/diff_drive_controller/test/test_diff_drive_controller.cpp:572:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  572 |   EXPECT_EQ(0.0, [01;35m[Kright_wheel_vel_cmd_.get_value()[m[K);
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K

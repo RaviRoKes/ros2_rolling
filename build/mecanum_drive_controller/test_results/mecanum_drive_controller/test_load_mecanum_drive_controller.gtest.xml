@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" disabled="0" errors="0" time="0.018" timestamp="2024-11-08T13:58:05.248" name="AllTests">
+  <testsuite name="TestLoadMecanumDriveController" tests="1" failures="1" disabled="0" skipped="0" errors="0" time="0.018" timestamp="2024-11-08T13:58:05.248">
+    <testcase name="load_controller" file="/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/test_load_mecanum_drive_controller.cpp" line="25" status="run" result="completed" time="0.018" timestamp="2024-11-08T13:58:05.248" classname="mecanum_drive_controller.TestLoadMecanumDriveController">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;Failed to load library /opt/ros/jazzy/lib/libsdformat_urdf_plugin.so. Make sure that you are calling the PLUGINLIB_EXPORT_CLASS macro in the library code, and that names are consistent between this macro and your XML. Error string: Could not load library dlopen error: libsdformat14.so.14: cannot open shared object file: No such file or directory, at ./src/shared_library.c:99&quot; thrown in the test body.&#x0A;" type=""><![CDATA[unknown file
+C++ exception with description "Failed to load library /opt/ros/jazzy/lib/libsdformat_urdf_plugin.so. Make sure that you are calling the PLUGINLIB_EXPORT_CLASS macro in the library code, and that names are consistent between this macro and your XML. Error string: Could not load library dlopen error: libsdformat14.so.14: cannot open shared object file: No such file or directory, at ./src/shared_library.c:99" thrown in the test body.
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

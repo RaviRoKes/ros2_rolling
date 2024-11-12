@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241108-1258-Experimental"
+	Name="sr-c1070"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="13.2.0"
+	OSName="Linux"
+	Hostname="sr-c1070"
+	OSRelease="6.8.0-109047-tuxedo"
+	OSVersion="#47tux1 SMP PREEMPT_DYNAMIC Sat Oct 26 03:42:18 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="183"
+	ProcessorCacheSize="36864"
+	NumberOfLogicalCPU="32"
+	NumberOfPhysicalCPU="24"
+	TotalVirtualMemory="8191"
+	TotalPhysicalMemory="64001"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="799.703"
+	>
+	<Testing>
+		<StartDateTime>Nov 08 13:58 CET</StartDateTime>
+		<StartTestTime>1731070685</StartTestTime>
+		<TestList>
+			<Test>./test_load_mecanum_drive_controller</Test>
+			<Test>./test_mecanum_drive_controller</Test>
+			<Test>./test_mecanum_drive_controller_preceeding</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>test_load_mecanum_drive_controller</Name>
+			<Path>.</Path>
+			<FullName>./test_load_mecanum_drive_controller</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_load_mecanum_drive_controller.gtest.xml" "--package-name" "mecanum_drive_controller" "--output-file" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_load_mecanum_drive_controller.txt" "--command" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_load_mecanum_drive_controller" "--ros-args" "--params-file" "/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/mecanum_drive_controller_params.yaml" "--" "--gtest_output=xml:/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_load_mecanum_drive_controller.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.214185</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_load_mecanum_drive_controller.gtest.xml" "--package-name" "mecanum_drive_controller" "--output-file" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_load_mecanum_drive_controller.txt" "--command" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_load_mecanum_drive_controller" "--ros-args" "--params-file" "/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/mecanum_drive_controller_params.yaml" "--" "--gtest_output=xml:/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_load_mecanum_drive_controller.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/ravik/ros2_rolling/build/mecanum_drive_controller':
+ - /home/ravik/ros2_rolling/build/mecanum_drive_controller/test_load_mecanum_drive_controller --ros-args --params-file /home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/mecanum_drive_controller_params.yaml -- --gtest_output=xml:/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_load_mecanum_drive_controller.gtest.xml
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestLoadMecanumDriveController
+[ RUN      ] TestLoadMecanumDriveController.load_controller
+unknown file: Failure
+C++ exception with description "Failed to load library /opt/ros/jazzy/lib/libsdformat_urdf_plugin.so. Make sure that you are calling the PLUGINLIB_EXPORT_CLASS macro in the library code, and that names are consistent between this macro and your XML. Error string: Could not load library dlopen error: libsdformat14.so.14: cannot open shared object file: No such file or directory, at ./src/shared_library.c:99" thrown in the test body.
+
+[  FAILED  ] TestLoadMecanumDriveController.load_controller (18 ms)
+[----------] 1 test from TestLoadMecanumDriveController (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (18 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestLoadMecanumDriveController.load_controller
+
+ 1 FAILED TEST
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_load_mecanum_drive_controller.gtest.xml'
+-- run_test.py: verify result file '/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_load_mecanum_drive_controller.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="failed">
+			<Name>test_mecanum_drive_controller</Name>
+			<Path>.</Path>
+			<FullName>./test_mecanum_drive_controller</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller.gtest.xml" "--package-name" "mecanum_drive_controller" "--output-file" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller.txt" "--command" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_mecanum_drive_controller" "--ros-args" "--params-file" "/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/mecanum_drive_controller_params.yaml" "--" "--gtest_output=xml:/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.99611</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller.gtest.xml" "--package-name" "mecanum_drive_controller" "--output-file" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller.txt" "--command" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_mecanum_drive_controller" "--ros-args" "--params-file" "/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/mecanum_drive_controller_params.yaml" "--" "--gtest_output=xml:/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/ravik/ros2_rolling/build/mecanum_drive_controller':
+ - /home/ravik/ros2_rolling/build/mecanum_drive_controller/test_mecanum_drive_controller --ros-args --params-file /home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/mecanum_drive_controller_params.yaml -- --gtest_output=xml:/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller.gtest.xml
+[==========] Running 15 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 15 tests from MecanumDriveControllerTest
+[ RUN      ] MecanumDriveControllerTest.when_controller_is_configured_expect_all_parameters_set
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070685.488782149] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_controller_is_configured_expect_all_parameters_set (34 ms)
+[ RUN      ] MecanumDriveControllerTest.when_controller_configured_expect_properly_exported_interfaces
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070685.504605439] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_controller_configured_expect_properly_exported_interfaces (14 ms)
+[ RUN      ] MecanumDriveControllerTest.when_controller_is_activated_expect_reference_reset
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070685.517563441] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_controller_is_activated_expect_reference_reset (11 ms)
+[ RUN      ] MecanumDriveControllerTest.when_controller_active_and_update_called_expect_success
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070685.529415654] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_controller_active_and_update_called_expect_success (11 ms)
+[ RUN      ] MecanumDriveControllerTest.when_active_controller_is_deactivated_expect_success
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070685.541284978] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_active_controller_is_deactivated_expect_success (11 ms)
+[ RUN      ] MecanumDriveControllerTest.when_controller_is_reactivated_expect_cmd_itfs_not_set_and_update_success
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070685.553139269] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_controller_is_reactivated_expect_cmd_itfs_not_set_and_update_success (11 ms)
+[ RUN      ] MecanumDriveControllerTest.when_update_is_called_expect_status_message
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070685.564395114] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_update_is_called_expect_status_message (15 ms)
+[ RUN      ] MecanumDriveControllerTest.when_reference_msg_received_expect_updated_commands_and_status_message
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070685.579901054] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:235: Failure
+Expected equality of these values:
+  joint_command_values_[1]
+    Which is: 0
+  3.0
+    Which is: 3
+
+/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:239: Failure
+Expected equality of these values:
+  msg.reference_velocity.linear.x
+    Which is: nan
+  1.5
+
+[  FAILED  ] MecanumDriveControllerTest.when_reference_msg_received_expect_updated_commands_and_status_message (518 ms)
+[ RUN      ] MecanumDriveControllerTest.when_reference_msg_is_too_old_expect_unset_reference
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070686.102995823] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[NON-XML-CHAR-0x1B][31m[ERROR] [1731070686.103116594] [test_mecanum_drive_controller]: Received message has timestamp 1731070685.9030251503 older for 0.2000877690 which is more then allowed timeout (0.1000).[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_reference_msg_is_too_old_expect_unset_reference (526 ms)
+[ RUN      ] MecanumDriveControllerTest.when_reference_msg_has_timestamp_zero_expect_reference_set_and_timestamp_set_to_current_time
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070686.628118721] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[NON-XML-CHAR-0x1B][33m[WARN] [1731070686.628278427] [test_mecanum_drive_controller]: Timestamp in header is missing, using current time as command timestamp.[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_reference_msg_has_timestamp_zero_expect_reference_set_and_timestamp_set_to_current_time (523 ms)
+[ RUN      ] MecanumDriveControllerTest.when_message_has_valid_timestamp_expect_reference_set
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070687.159293135] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_message_has_valid_timestamp_expect_reference_set (530 ms)
+[ RUN      ] MecanumDriveControllerTest.when_ref_msg_old_expect_cmnd_itfs_set_to_zero_otherwise_to_valid_cmnds
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070687.685399608] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_ref_msg_old_expect_cmnd_itfs_set_to_zero_otherwise_to_valid_cmnds (18 ms)
+[ RUN      ] MecanumDriveControllerTest.when_controller_in_chainable_mode_expect_receiving_commands_from_reference_interfaces_directly
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070687.701383197] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_controller_in_chainable_mode_expect_receiving_commands_from_reference_interfaces_directly (16 ms)
+[ RUN      ] MecanumDriveControllerTest.when_reference_timeout_is_zero_expect_reference_msg_being_used_only_once
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070687.718658483] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_reference_timeout_is_zero_expect_reference_msg_being_used_only_once (16 ms)
+[ RUN      ] MecanumDriveControllerTest.when_ref_timeout_zero_for_reference_callback_expect_reference_msg_being_used_only_once
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070687.738654267] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_ref_timeout_zero_for_reference_callback_expect_reference_msg_being_used_only_once (533 ms)
+[----------] 15 tests from MecanumDriveControllerTest (2796 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 1 test suite ran. (2796 ms total)
+[  PASSED  ] 14 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MecanumDriveControllerTest.when_reference_msg_received_expect_updated_commands_and_status_message
+
+ 1 FAILED TEST
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller.gtest.xml'
+-- run_test.py: verify result file '/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_mecanum_drive_controller_preceeding</Name>
+			<Path>.</Path>
+			<FullName>./test_mecanum_drive_controller_preceeding</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller_preceeding.gtest.xml" "--package-name" "mecanum_drive_controller" "--output-file" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller_preceeding.txt" "--command" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_mecanum_drive_controller_preceeding" "--ros-args" "--params-file" "/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/mecanum_drive_controller_preceeding_params.yaml" "--" "--gtest_output=xml:/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller_preceeding.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.248963</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller_preceeding.gtest.xml" "--package-name" "mecanum_drive_controller" "--output-file" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller_preceeding.txt" "--command" "/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_mecanum_drive_controller_preceeding" "--ros-args" "--params-file" "/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/mecanum_drive_controller_preceeding_params.yaml" "--" "--gtest_output=xml:/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller_preceeding.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/ravik/ros2_rolling/build/mecanum_drive_controller':
+ - /home/ravik/ros2_rolling/build/mecanum_drive_controller/test_mecanum_drive_controller_preceeding --ros-args --params-file /home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/mecanum_drive_controller_preceeding_params.yaml -- --gtest_output=xml:/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller_preceeding.gtest.xml
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from MecanumDriveControllerTest
+[ RUN      ] MecanumDriveControllerTest.when_controller_is_configured_expect_all_parameters_set
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070688.479782319] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_controller_is_configured_expect_all_parameters_set (29 ms)
+[ RUN      ] MecanumDriveControllerTest.when_controller_configured_expect_properly_exported_interfaces
+[NON-XML-CHAR-0x1B][0m[INFO] [1731070688.503521938] [test_mecanum_drive_controller]: configure successful[NON-XML-CHAR-0x1B][0m
+[       OK ] MecanumDriveControllerTest.when_controller_configured_expect_properly_exported_interfaces (24 ms)
+[----------] 2 tests from MecanumDriveControllerTest (53 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (53 ms total)
+[  PASSED  ] 2 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller_preceeding.gtest.xml'
+-- run_test.py: verify result file '/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller_preceeding.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Nov 08 13:58 CET</EndDateTime>
+		<EndTestTime>1731070688</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

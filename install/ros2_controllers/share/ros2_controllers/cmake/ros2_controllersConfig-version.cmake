@@ -1,0 +1,1 @@
+/home/ravik/ros2_rolling/build/ros2_controllers/ament_cmake_core/ros2_controllersConfig-version.cmake

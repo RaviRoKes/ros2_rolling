@@ -1,0 +1,3 @@
+/home/ravik/ros2_rolling/install/generate_parameter_library_example/lib/libminimal_publisher.so
+/home/ravik/ros2_rolling/install/generate_parameter_library_example/share/generate_parameter_library_example/cmake/export_generate_parameter_library_exampleExport.cmake
+/home/ravik/ros2_rolling/install/generate_parameter_library_example/share/generate_parameter_library_example/cmake/export_generate_parameter_library_exampleExport-noconfig.cmake

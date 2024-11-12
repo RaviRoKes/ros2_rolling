@@ -1,0 +1,1 @@
+/home/ravik/ros2_rolling/build/gripper_controllers/ament_cmake_core/gripper_controllersConfig.cmake

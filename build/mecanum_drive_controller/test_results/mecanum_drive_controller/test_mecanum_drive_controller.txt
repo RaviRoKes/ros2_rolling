@@ -1,0 +1,80 @@
+-- run_test.py: invoking following command in '/home/ravik/ros2_rolling/build/mecanum_drive_controller':
+ - /home/ravik/ros2_rolling/build/mecanum_drive_controller/test_mecanum_drive_controller --ros-args --params-file /home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/mecanum_drive_controller_params.yaml -- --gtest_output=xml:/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller.gtest.xml
+
+[==========] Running 15 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 15 tests from MecanumDriveControllerTest
+[ RUN      ] MecanumDriveControllerTest.when_controller_is_configured_expect_all_parameters_set
+[0m[INFO] [1731070685.488782149] [test_mecanum_drive_controller]: configure successful[0m
+[       OK ] MecanumDriveControllerTest.when_controller_is_configured_expect_all_parameters_set (34 ms)
+[ RUN      ] MecanumDriveControllerTest.when_controller_configured_expect_properly_exported_interfaces
+[0m[INFO] [1731070685.504605439] [test_mecanum_drive_controller]: configure successful[0m
+[       OK ] MecanumDriveControllerTest.when_controller_configured_expect_properly_exported_interfaces (14 ms)
+[ RUN      ] MecanumDriveControllerTest.when_controller_is_activated_expect_reference_reset
+[0m[INFO] [1731070685.517563441] [test_mecanum_drive_controller]: configure successful[0m
+[       OK ] MecanumDriveControllerTest.when_controller_is_activated_expect_reference_reset (11 ms)
+[ RUN      ] MecanumDriveControllerTest.when_controller_active_and_update_called_expect_success
+[0m[INFO] [1731070685.529415654] [test_mecanum_drive_controller]: configure successful[0m
+[       OK ] MecanumDriveControllerTest.when_controller_active_and_update_called_expect_success (11 ms)
+[ RUN      ] MecanumDriveControllerTest.when_active_controller_is_deactivated_expect_success
+[0m[INFO] [1731070685.541284978] [test_mecanum_drive_controller]: configure successful[0m
+[       OK ] MecanumDriveControllerTest.when_active_controller_is_deactivated_expect_success (11 ms)
+[ RUN      ] MecanumDriveControllerTest.when_controller_is_reactivated_expect_cmd_itfs_not_set_and_update_success
+[0m[INFO] [1731070685.553139269] [test_mecanum_drive_controller]: configure successful[0m
+[       OK ] MecanumDriveControllerTest.when_controller_is_reactivated_expect_cmd_itfs_not_set_and_update_success (11 ms)
+[ RUN      ] MecanumDriveControllerTest.when_update_is_called_expect_status_message
+[0m[INFO] [1731070685.564395114] [test_mecanum_drive_controller]: configure successful[0m
+[       OK ] MecanumDriveControllerTest.when_update_is_called_expect_status_message (15 ms)
+[ RUN      ] MecanumDriveControllerTest.when_reference_msg_received_expect_updated_commands_and_status_message
+[0m[INFO] [1731070685.579901054] [test_mecanum_drive_controller]: configure successful[0m
+/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:235: Failure
+Expected equality of these values:
+  joint_command_values_[1]
+    Which is: 0
+  3.0
+    Which is: 3
+
+/home/ravik/ros2_rolling/ros2_controllers/mecanum_drive_controller/test/test_mecanum_drive_controller.cpp:239: Failure
+Expected equality of these values:
+  msg.reference_velocity.linear.x
+    Which is: nan
+  1.5
+
+[  FAILED  ] MecanumDriveControllerTest.when_reference_msg_received_expect_updated_commands_and_status_message (518 ms)
+[ RUN      ] MecanumDriveControllerTest.when_reference_msg_is_too_old_expect_unset_reference
+[0m[INFO] [1731070686.102995823] [test_mecanum_drive_controller]: configure successful[0m
+[31m[ERROR] [1731070686.103116594] [test_mecanum_drive_controller]: Received message has timestamp 1731070685.9030251503 older for 0.2000877690 which is more then allowed timeout (0.1000).[0m
+[       OK ] MecanumDriveControllerTest.when_reference_msg_is_too_old_expect_unset_reference (526 ms)
+[ RUN      ] MecanumDriveControllerTest.when_reference_msg_has_timestamp_zero_expect_reference_set_and_timestamp_set_to_current_time
+[0m[INFO] [1731070686.628118721] [test_mecanum_drive_controller]: configure successful[0m
+[33m[WARN] [1731070686.628278427] [test_mecanum_drive_controller]: Timestamp in header is missing, using current time as command timestamp.[0m
+[       OK ] MecanumDriveControllerTest.when_reference_msg_has_timestamp_zero_expect_reference_set_and_timestamp_set_to_current_time (523 ms)
+[ RUN      ] MecanumDriveControllerTest.when_message_has_valid_timestamp_expect_reference_set
+[0m[INFO] [1731070687.159293135] [test_mecanum_drive_controller]: configure successful[0m
+[       OK ] MecanumDriveControllerTest.when_message_has_valid_timestamp_expect_reference_set (530 ms)
+[ RUN      ] MecanumDriveControllerTest.when_ref_msg_old_expect_cmnd_itfs_set_to_zero_otherwise_to_valid_cmnds
+[0m[INFO] [1731070687.685399608] [test_mecanum_drive_controller]: configure successful[0m
+[       OK ] MecanumDriveControllerTest.when_ref_msg_old_expect_cmnd_itfs_set_to_zero_otherwise_to_valid_cmnds (18 ms)
+[ RUN      ] MecanumDriveControllerTest.when_controller_in_chainable_mode_expect_receiving_commands_from_reference_interfaces_directly
+[0m[INFO] [1731070687.701383197] [test_mecanum_drive_controller]: configure successful[0m
+[       OK ] MecanumDriveControllerTest.when_controller_in_chainable_mode_expect_receiving_commands_from_reference_interfaces_directly (16 ms)
+[ RUN      ] MecanumDriveControllerTest.when_reference_timeout_is_zero_expect_reference_msg_being_used_only_once
+[0m[INFO] [1731070687.718658483] [test_mecanum_drive_controller]: configure successful[0m
+[       OK ] MecanumDriveControllerTest.when_reference_timeout_is_zero_expect_reference_msg_being_used_only_once (16 ms)
+[ RUN      ] MecanumDriveControllerTest.when_ref_timeout_zero_for_reference_callback_expect_reference_msg_being_used_only_once
+[0m[INFO] [1731070687.738654267] [test_mecanum_drive_controller]: configure successful[0m
+[       OK ] MecanumDriveControllerTest.when_ref_timeout_zero_for_reference_callback_expect_reference_msg_being_used_only_once (533 ms)
+[----------] 15 tests from MecanumDriveControllerTest (2796 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 1 test suite ran. (2796 ms total)
+[  PASSED  ] 14 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MecanumDriveControllerTest.when_reference_msg_received_expect_updated_commands_and_status_message
+
+ 1 FAILED TEST
+
+
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller.gtest.xml'
+-- run_test.py: verify result file '/home/ravik/ros2_rolling/build/mecanum_drive_controller/test_results/mecanum_drive_controller/test_mecanum_drive_controller.gtest.xml'

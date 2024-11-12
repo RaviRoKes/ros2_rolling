@@ -1,0 +1,41 @@
+/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_manager/test/test_controller/test_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type test_controller::TestController::[01;32m[Kupdate[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_manager/test/test_controller/test_controller.cpp:74:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   74 |     [01;35m[Kcommand_interfaces_[0].set_value(set_first_command_interface_value_to)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_manager/test/test_controller/test_controller.hpp:21[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_manager/test/test_controller/test_controller.cpp:15[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_manager/test/test_controller/test_controller.cpp:93:39:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   93 |       [01;35m[Kcommand_interfaces_[i].set_value(external_commands_for_testing_[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type test_chainable_controller::TestChainableController::[01;32m[Kupdate_and_write_commands[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.cpp:104:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  104 |     [01;35m[Kcommand_interfaces_[i].set_value(reference_interfaces_[i] - state_interfaces_[i].get_value())[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/chainable_controller_interface.hpp:23[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.hpp:22[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.cpp:15[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K

@@ -1,0 +1,168 @@
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found control_msgs: 5.2.0 (/home/ravik/ros2_rolling/install/control_msgs/share/control_msgs/cmake)
+-- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found hardware_interface: 4.20.0 (/home/ravik/ros2_rolling/install/hardware_interface/share/hardware_interface/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found FastRTPS: /opt/ros/rolling/include (Required is at least version "2.13") 
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ros2_control_test_assets: 4.20.0 (/home/ravik/ros2_rolling/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+-- Found ament_cmake_gmock: 2.7.0 (/opt/ros/rolling/share/ament_cmake_gmock/cmake)
+-- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- The C compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake_gtest: 2.7.0 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ravik/ros2_rolling/build/hardware_interface_testing
+[  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 30%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/rolling/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/test_components.dir/test/test_components/test_actuator.cpp.o[0m
+[ 38%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/test_components.dir/test/test_components/test_sensor.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/test_components.dir/test/test_components/test_system.cpp.o[0m
+[ 53%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 53%] Built target gmock_main
+[ 61%] [32m[1mLinking CXX shared library libtest_components.so[0m
+[ 61%] Built target test_components
+[ 69%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 69%] Built target gmock
+[ 76%] [32mBuilding CXX object CMakeFiles/test_resource_manager_prepare_perform_switch.dir/test/test_resource_manager_prepare_perform_switch.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/test_resource_manager.dir/test/test_resource_manager.cpp.o[0m
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvirtual void ResourceManagerTest_managing_controllers_reference_interfaces_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1287:27:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1287 |     [01;35m[Kclaimed_itf1.set_value(11.1)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/resource_manager.hpp:26[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:17[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1288:27:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1288 |     [01;35m[Kclaimed_itf3.set_value(33.3)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvoid ResourceManagerTestReadWriteError::[01;32m[Kcheck_read_or_write_failure[m[K(FunctionT, FunctionT, double)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1410:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1410 |     [01;35m[Kclaimed_itfs[0].set_value(fail_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1411:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1411 |     [01;35m[Kclaimed_itfs[1].set_value(fail_value - 10.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1446:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1446 |     [01;35m[Kclaimed_itfs[0].set_value(fail_value - 10.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1447:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1447 |     [01;35m[Kclaimed_itfs[1].set_value(fail_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1483:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1483 |     [01;35m[Kclaimed_itfs[0].set_value(fail_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1484:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1484 |     [01;35m[Kclaimed_itfs[1].set_value(fail_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvoid ResourceManagerTestReadWriteError::[01;32m[Kcheck_read_or_write_deactivate[m[K(FunctionT, FunctionT, double)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1529:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1529 |     [01;35m[Kclaimed_itfs[0].set_value(deactivate_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1530:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1530 |     [01;35m[Kclaimed_itfs[1].set_value(deactivate_value - 10.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1565:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1565 |     [01;35m[Kclaimed_itfs[0].set_value(deactivate_value - 10.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1566:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1566 |     [01;35m[Kclaimed_itfs[1].set_value(deactivate_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1601:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1601 |     [01;35m[Kclaimed_itfs[0].set_value(deactivate_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1602:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1602 |     [01;35m[Kclaimed_itfs[1].set_value(deactivate_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[ 92%] [32m[1mLinking CXX executable test_resource_manager_prepare_perform_switch[0m
+[ 92%] Built target test_resource_manager_prepare_perform_switch
+[100%] [32m[1mLinking CXX executable test_resource_manager[0m
+[100%] Built target test_resource_manager
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/lib/libtest_components.so
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/test/test_components/test_components.xml
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/ament_index/resource_index/package_run_dependencies/hardware_interface_testing
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/ament_index/resource_index/parent_prefix_path/hardware_interface_testing
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/environment/ament_prefix_path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/environment/path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/environment/path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.bash
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.zsh
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/local_setup.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/package.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/ament_index/resource_index/packages/hardware_interface_testing
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface_testing
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/cmake/hardware_interface_testingConfig.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/cmake/hardware_interface_testingConfig-version.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/hardware_interface_testing/share/hardware_interface_testing/package.xml

@@ -1,0 +1,43 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+creating rqt_joint_trajectory_controller.egg-info
+writing rqt_joint_trajectory_controller.egg-info/PKG-INFO
+writing dependency_links to rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+writing entry points to rqt_joint_trajectory_controller.egg-info/entry_points.txt
+writing requirements to rqt_joint_trajectory_controller.egg-info/requires.txt
+writing top-level names to rqt_joint_trajectory_controller.egg-info/top_level.txt
+writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+reading manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages/rqt-joint-trajectory-controller.egg-link (link to .)
+Installing rqt_joint_trajectory_controller script to /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+
+Installed /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller
+running symlink_data
+creating /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/ament_index
+creating /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/ament_index/resource_index
+creating /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+symbolically linking /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/resource/rqt_joint_trajectory_controller -> /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/ament_index/resource_index/packages
+symbolically linking /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/package.xml -> /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller
+creating /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/resource/scope.svg -> /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/resource/joint_trajectory_controller.ui -> /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/resource/on.svg -> /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/resource/off.svg -> /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/resource/double_editor.ui -> /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/resource/scope.png -> /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller/resource
+symbolically linking /home/ravik/ros2_rolling/build/rqt_joint_trajectory_controller/plugin.xml -> /home/ravik/ros2_rolling/install/rqt_joint_trajectory_controller/share/rqt_joint_trajectory_controller

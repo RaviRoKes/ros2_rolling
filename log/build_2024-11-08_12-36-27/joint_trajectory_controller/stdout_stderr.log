@@ -1,0 +1,338 @@
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found angles: 1.16.0 (/opt/ros/rolling/share/angles/cmake)
+-- Found control_msgs: 5.2.0 (/home/ravik/ros2_rolling/install/control_msgs/share/control_msgs/cmake)
+-- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found control_toolbox: 3.3.0 (/home/ravik/ros2_rolling/install/control_toolbox/share/control_toolbox/cmake)
+-- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/rolling/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found parameter_traits: 0.3.9 (/home/ravik/ros2_rolling/install/parameter_traits/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 28.3.3 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)
+-- Found controller_interface: 4.20.0 (/home/ravik/ros2_rolling/install/controller_interface/share/controller_interface/cmake)
+-- Found ament_cmake_gmock: 2.7.0 (/opt/ros/rolling/share/ament_cmake_gmock/cmake)
+-- Found controller_manager: 4.20.0 (/home/ravik/ros2_rolling/install/controller_manager/share/controller_manager/cmake)
+-- Found ros2_control_test_assets: 4.20.0 (/home/ravik/ros2_rolling/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+-- Found gmock sources under '/opt/ros/rolling/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- The C compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake_gtest: 2.7.0 (/opt/ros/rolling/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/rolling/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (1.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/ravik/ros2_rolling/build/joint_trajectory_controller
+[  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 10%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 15%] [34m[1mRunning `/usr/bin/cmake -E copy /home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp /home/ravik/ros2_rolling/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp`[0m
+[ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/rolling/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 25%] [34m[1mRunning `/home/ravik/ros2_rolling/install/generate_parameter_library_py/bin/generate_parameter_library_cpp /home/ravik/ros2_rolling/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include//joint_trajectory_controller_parameters.hpp /home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp`[0m
+[ 25%] Built target joint_trajectory_controller_parameters
+[ 30%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[ 40%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 40%] Built target gmock_main
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:35[m[K:
+[01m[K/opt/ros/rolling/include/urdf/urdf/model.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include urdf/model.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+[ 45%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 45%] Built target gmock
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn joint_trajectory_controller::JointTrajectoryController::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:987:57:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  987 |       [01;35m[Kjoint_command_interface_[0][index].get().set_value([m[K
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  988 | [01;35m[K        joint_command_interface_[0][index].get().get_value())[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:15[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:993:57:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  993 |       [01;35m[Kjoint_command_interface_[1][index].get().set_value(0.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:998:57:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  998 |       [01;35m[Kjoint_command_interface_[2][index].get().set_value(0.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:1004:57:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1004 |       [01;35m[Kjoint_command_interface_[3][index].get().set_value(0.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp: In instantiation of ‘[01m[Kvoid joint_trajectory_controller::JointTrajectoryController::[01;32m[Kassign_interface_from_point[m[K(const T&, const std::vector<double, std::allocator<double> >&) [35m[K[with T = std::vector<std::reference_wrapper<hardware_interface::LoanedCommandInterface>, std::allocator<std::reference_wrapper<hardware_interface::LoanedCommandInterface> > >][m[K[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:289:38:[m[K   required from here
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:316:45:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  316 |       [01;35m[Kjoint_interface[index].get().set_value(trajectory_point_interface[index])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX shared library libjoint_trajectory_controller.so[0m
+[ 50%] Built target joint_trajectory_controller
+[ 55%] [32mBuilding CXX object CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_trajectory_actions.dir/test/test_trajectory_actions.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_tolerances.dir/test/test_tolerances.cpp.o[0m
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:36[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::State test_trajectory_controllers::TrajectoryControllerTest::[01;32m[KActivateTrajectoryController[m[K(bool, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:373:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  373 |       [01;35m[Kcmd_interfaces.back().set_value(initial_pos_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:27[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:375:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  375 |       [01;35m[Kcmd_interfaces.back().set_value(initial_vel_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:377:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  377 |       [01;35m[Kcmd_interfaces.back().set_value(initial_acc_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:379:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  379 |       [01;35m[Kcmd_interfaces.back().set_value(initial_eff_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest-printers.h:122[m[K,
+                 from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest-matchers.h:49[m[K,
+                 from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h:47[m[K,
+                 from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest-death-test.h:43[m[K,
+                 from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest.h:65[m[K,
+                 from [01m[K/opt/ros/rolling/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+                 from [01m[K/opt/ros/rolling/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+                 from [01m[K/opt/ros/rolling/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:24[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:[m[K In member function ‘[01m[Kvoid test_trajectory_controllers::TrajectoryControllerTest::[01;32m[KexpectCommandPoint[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:656:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  656 |             position.at(i) - [01;35m[Kpos_state_interfaces_[i].get_value()[m[K, joint_vel_[i]))
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp:26[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:658:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  658 |             << [01;35m[Kpos_state_interfaces_[i].get_value()[m[K << ", velocity command is " << joint_vel_[i];
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:666:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  666 |             position.at(i) - [01;35m[Kpos_state_interfaces_[i].get_value()[m[K, joint_eff_[i]))
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:668:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  668 |             << [01;35m[Kpos_state_interfaces_[i].get_value()[m[K << ", effort command is " << joint_eff_[i];
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[ 80%] [32m[1mLinking CXX executable test_trajectory[0m
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_tolerances.cpp:26[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::State test_trajectory_controllers::TrajectoryControllerTest::[01;32m[KActivateTrajectoryController[m[K(bool, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:373:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  373 |       [01;35m[Kcmd_interfaces.back().set_value(initial_pos_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:27[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:375:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  375 |       [01;35m[Kcmd_interfaces.back().set_value(initial_vel_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:377:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  377 |       [01;35m[Kcmd_interfaces.back().set_value(initial_acc_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:379:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  379 |       [01;35m[Kcmd_interfaces.back().set_value(initial_eff_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest-printers.h:122[m[K,
+                 from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest-matchers.h:49[m[K,
+                 from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h:47[m[K,
+                 from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest-death-test.h:43[m[K,
+                 from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest.h:65[m[K,
+                 from [01m[K/opt/ros/rolling/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+                 from [01m[K/opt/ros/rolling/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+                 from [01m[K/opt/ros/rolling/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_tolerances.cpp:15[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:[m[K In member function ‘[01m[Kvoid test_trajectory_controllers::TrajectoryControllerTest::[01;32m[KexpectCommandPoint[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:656:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  656 |             position.at(i) - [01;35m[Kpos_state_interfaces_[i].get_value()[m[K, joint_vel_[i]))
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp:26[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:658:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  658 |             << [01;35m[Kpos_state_interfaces_[i].get_value()[m[K << ", velocity command is " << joint_vel_[i];
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:666:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  666 |             position.at(i) - [01;35m[Kpos_state_interfaces_[i].get_value()[m[K, joint_eff_[i]))
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:668:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  668 |             << [01;35m[Kpos_state_interfaces_[i].get_value()[m[K << ", effort command is " << joint_eff_[i];
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[ 80%] Built target test_trajectory
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp:42[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:[m[K In member function ‘[01m[Krclcpp_lifecycle::State test_trajectory_controllers::TrajectoryControllerTest::[01;32m[KActivateTrajectoryController[m[K(bool, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:373:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  373 |       [01;35m[Kcmd_interfaces.back().set_value(initial_pos_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface.hpp:21[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:27[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:27[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:375:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  375 |       [01;35m[Kcmd_interfaces.back().set_value(initial_vel_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:377:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  377 |       [01;35m[Kcmd_interfaces.back().set_value(initial_acc_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:379:38:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(T, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  379 |       [01;35m[Kcmd_interfaces.back().set_value(initial_eff_joints[i])[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/loaned_command_interface.hpp:98:22:[m[K [01;36m[Knote: [m[Kdeclared here
+   98 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(T value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest-printers.h:122[m[K,
+                 from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest-matchers.h:49[m[K,
+                 from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h:47[m[K,
+                 from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest-death-test.h:43[m[K,
+                 from [01m[K/opt/ros/rolling/src/gtest_vendor/include/gtest/gtest.h:65[m[K,
+                 from [01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp:28[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:[m[K In member function ‘[01m[Kvoid test_trajectory_controllers::TrajectoryControllerTest::[01;32m[KexpectCommandPoint[m[K(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:656:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  656 |             position.at(i) - [01;35m[Kpos_state_interfaces_[i].get_value()[m[K, joint_vel_[i]))
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/ravik/ros2_rolling/src/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp:26[m[K:
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:658:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  658 |             << [01;35m[Kpos_state_interfaces_[i].get_value()[m[K << ", velocity command is " << joint_vel_[i];
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:666:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  666 |             position.at(i) - [01;35m[Kpos_state_interfaces_[i].get_value()[m[K, joint_eff_[i]))
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:668:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::Handle::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use bool get_value(double & value) instead to retrieve the value. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  668 |             << [01;35m[Kpos_state_interfaces_[i].get_value()[m[K << ", effort command is " << joint_eff_[i];
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ravik/ros2_rolling/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:146:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[ 85%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[ 85%] Built target test_load_joint_trajectory_controller
+[ 90%] [32m[1mLinking CXX executable test_tolerances[0m
+[ 90%] Built target test_tolerances
+[ 95%] [32m[1mLinking CXX executable test_trajectory_actions[0m
+[ 95%] Built target test_trajectory_actions
+[100%] [32m[1mLinking CXX executable test_trajectory_controller[0m
+[100%] Built target test_trajectory_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/joint_trajectory_controller_parameters.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/validate_jtc_parameters.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller//joint_trajectory_plugin.xml
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/interpolation_methods.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/trajectory.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/validate_jtc_parameters.hpp
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/visibility_control.h
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+-- Symlinking: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+-- Installing: /home/ravik/ros2_rolling/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+-- Set non-toolchain portion of runtime path of "/home/ravik/ros2_rolling/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so" to ""
+-- Installing: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport.cmake
+-- Installing: /home/ravik/ros2_rolling/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport-noconfig.cmake
